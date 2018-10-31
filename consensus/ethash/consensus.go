@@ -441,7 +441,7 @@ func calcDifficultyHomestead(time uint64, parent *types.Header) *big.Int {
 	if periodCount.Cmp(big1) > 0 {
 		y.Sub(periodCount, big2)
 		y.Exp(big2, y, nil)
-		x.Add(x, y)
+		//x.Add(x, y)
 	}
 	return x
 }
