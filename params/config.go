@@ -66,7 +66,7 @@ var (
 		EIP155Block:         big.NewInt(10),
 		EIP158Block:         big.NewInt(10),
 		ByzantiumBlock:      big.NewInt(5000000),
-		ConstantinopleBlock: big.NewInt(10000000),
+		ConstantinopleBlock: nil,
 		Ethash:              new(EthashConfig),
 	}
 
