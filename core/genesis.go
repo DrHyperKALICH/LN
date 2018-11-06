@@ -301,10 +301,10 @@ func GenesisBlockForTesting(db ethdb.Database, addr common.Address, balance *big
 func DefaultGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.MainnetChainConfig,
-		Nonce:      66,
-		ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
-		GasLimit:   5000,
-		Difficulty: big.NewInt(17179869184),
+		Nonce:      77,
+		ExtraData:  hexutil.MustDecode("0x4c81ebf04b74f118bd33b17b6d7b5ca2ff50f54ce8bab951b302c758836f9c90"),
+		GasLimit:   16777216,
+		Difficulty: big.NewInt(1048576),
 		Alloc:      decodePrealloc(mainnetAllocData),
 	}
 }
@@ -313,7 +313,7 @@ func DefaultGenesisBlock() *Genesis {
 func DefaultTestnetGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.TestnetChainConfig,
-		Nonce:      66,
+		Nonce:      77,
 		ExtraData:  hexutil.MustDecode("0x7575757575757575757575757575757575757575757575757575757575757575"),
 		GasLimit:   16777216,
 		Difficulty: big.NewInt(1048576),
