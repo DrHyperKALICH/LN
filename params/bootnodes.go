@@ -17,23 +17,17 @@
 package params
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
-// the main Ethereum network.
+// the main Lightnet network.
 var MainnetBootnodes = []string{
-	// Ethereum Foundation Go Bootnodes
-	"enode://a979fb575495b8d6db44f750317d0f4622bf4c2aa3365d6af7c284339968eef29b69ad0dce72a4d8db5ebb4968de0e3bec910127f134779fbcb0cb6d3331163c@52.16.188.185:30303", // IE
-	"enode://3f1d12044546b76342d59d4a05532c14b85aa669704bfe1f864fe079415aa2c02d743e03218e57a33fb94523adb54032871a6c51b2cc5514cb7c7e35b3ed0a99@13.93.211.84:30303",  // US-WEST
-	"enode://78de8a0916848093c73790ead81d1928bec737d565119932b98c6b100d944b7a95e94f847f689fc723399d2e31129d182f7ef3863f2b4c820abbf3ab2722344d@191.235.84.50:30303", // BR
-	"enode://158f8aab45f6d19c6cbf4a089c2670541a8da11978a2f90dbf6a502a4a3bab80d288afdbeb7ec0ef6d92de563767f3b1ea9e8e334ca711e9f8e2df5a0385e8e6@13.75.154.138:30303", // AU
-	"enode://1118980bf48b0a3640bdba04e0fe78b1add18e1cd99bf22d53daac1fd9972ad650df52176e7c7d89d1114cfef2bc23a2959aa54998a46afcf7d91809f0855082@52.74.57.123:30303",  // SG
-
-	// Ethereum Foundation C++ Bootnodes
-	"enode://979b7fa28feeb35a4741660a16076f1943202cb72b6af70d327f053e248bab9ba81760f39d0701ef1d8f89cc1fbd2cacba0710a12cd5314d5e0c9021aa3637f9@5.1.83.226:30303", // DE
+	"enode://625ea4496711535a7c150e0f615b82473eff512d51a956177a00ad2520ba7d93ec6effc7c820495f0a6b587c0976333b1e8351c64a9c23728f22eb12feb9fe2a@142.93.56.129:30375", // NY
+	"enode://2c8768aa56d1e7a96ea625b422181219bfd2047d76fab320b9cea72dfdaefd9e5785b6d8edcc14e2e3acfdfc02a0d879a8c2360b0b7e40db2550d084ae05873f@142.93.43.200:30375",  // LON
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
-// Ropsten test network.
+// Lightnet test network.
 var TestnetBootnodes = []string{
-	"enode://957486f8f65b9e943b327568e2dfe10ead53ad50d8e74256476e38ed6327bd1a51b5d559d3765f5679f446e9fda5d9097ee84c351dbb19fde9b5fea50d0cd36c@46.101.35.36:30377",	
+	"enode://a7d5ab917f3518f497dc832c1b0e0ad5bced9bf43ee44fbe7916d00e70a2f0f8db3bad4863711bbd78a05b191ff62e06a92b31f781965921c1b6ca9f08c33ada@142.93.7.62:30357",	// NY
+	"enode://15df3dd33de1a341dd6c5000ca0f2bd954da6244ec9c274aa7d1bd66650d4574d72634d74d97ff7a7ddf204fad49388557d7df892e977350fa452ffb1ef24fda@142.93.35.14:30357",	// LON
 }
 
 // RinkebyBootnodes are the enode URLs of the P2P bootstrap nodes running on the
