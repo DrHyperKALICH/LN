@@ -19,15 +19,15 @@ package params
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Lightnet network.
 var MainnetBootnodes = []string{
-	"enode://625ea4496711535a7c150e0f615b82473eff512d51a956177a00ad2520ba7d93ec6effc7c820495f0a6b587c0976333b1e8351c64a9c23728f22eb12feb9fe2a@142.93.56.129:30375", // NY
-	"enode://2c8768aa56d1e7a96ea625b422181219bfd2047d76fab320b9cea72dfdaefd9e5785b6d8edcc14e2e3acfdfc02a0d879a8c2360b0b7e40db2550d084ae05873f@142.93.43.200:30375",  // LON
+	"enode://625ea4496711535a7c150e0f615b82473eff512d51a956177a00ad2520ba7d93ec6effc7c820495f0a6b587c0976333b1e8351c64a9c23728f22eb12feb9fe2a@142.93.56.129:30175", // NY
+	"enode://2c8768aa56d1e7a96ea625b422181219bfd2047d76fab320b9cea72dfdaefd9e5785b6d8edcc14e2e3acfdfc02a0d879a8c2360b0b7e40db2550d084ae05873f@142.93.43.200:30175",  // LON
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 // Lightnet test network.
 var TestnetBootnodes = []string{
-	"enode://a7d5ab917f3518f497dc832c1b0e0ad5bced9bf43ee44fbe7916d00e70a2f0f8db3bad4863711bbd78a05b191ff62e06a92b31f781965921c1b6ca9f08c33ada@142.93.7.62:30357",	// NY
-	"enode://15df3dd33de1a341dd6c5000ca0f2bd954da6244ec9c274aa7d1bd66650d4574d72634d74d97ff7a7ddf204fad49388557d7df892e977350fa452ffb1ef24fda@142.93.35.14:30357",	// LON
+	"enode://a7d5ab917f3518f497dc832c1b0e0ad5bced9bf43ee44fbe7916d00e70a2f0f8db3bad4863711bbd78a05b191ff62e06a92b31f781965921c1b6ca9f08c33ada@142.93.7.62:30157",	// NY
+	"enode://15df3dd33de1a341dd6c5000ca0f2bd954da6244ec9c274aa7d1bd66650d4574d72634d74d97ff7a7ddf204fad49388557d7df892e977350fa452ffb1ef24fda@142.93.35.14:30157",	// LON
 }
 
 // RinkebyBootnodes are the enode URLs of the P2P bootstrap nodes running on the
