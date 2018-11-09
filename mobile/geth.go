@@ -149,7 +149,7 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 		if config.EthereumGenesis == TestnetGenesis() {
 			genesis.Config = params.TestnetChainConfig
 			if config.EthereumNetworkID == 775 {
-				config.EthereumNetworkID = 7757
+				config.EthereumNetworkID = 3
 			}
 		}
 	}
