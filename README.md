@@ -2,9 +2,7 @@
 
 Official golang implementation of the Lightnetwork protocol.
 
-[![API Reference](
-https://api.lightnet.io/
-)](https://api.lightnet.io/)
+[![API Reference](https://api.lightnet.io/)](https://api.lightnet.io/)
 
 ## Building the source
 
