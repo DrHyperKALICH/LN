@@ -2,8 +2,6 @@
 
 Official golang implementation of the Lightnetwork protocol.
 
-[![API Reference](https://api.lightnet.io/)](https://api.lightnet.io/)
-
 ## Building the source
 
 
@@ -26,7 +24,7 @@ The go-Lightnetwork project comes with several wrappers/executables found in the
 | **`geth`** | Our main Lightnetwork CLI client. It is the entry point into the Lightnetwork network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Lightnetwork network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `geth --help` and the [CLI Wiki page](https://github.com/Lightnetwork/go-Lightnetwork/wiki/Command-Line-Options) for command line options. |
 | `abigen` | Source code generator to convert Lightnetwork contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [Lightnetwork contract ABIs](https://github.com/Lightnetwork/wiki/wiki/Lightnetwork-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/Lightnetwork/go-Lightnetwork/wiki/Native-DApps:-Go-bindings-to-Lightnetwork-contracts) wiki page for details. |
 | `bootnode` | Stripped down version of our Lightnetwork client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
-| `evm` | Developer utility version of the EVM (Lightnetwork Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow isolated, fine-grained debugging of EVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
+| `evm` | Developer utility version of the LVM (Lightnetwork Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow isolated, fine-grained debugging of LVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
 | `gethrpctest` | Developer utility tool to support our [Lightnetwork/rpc-test](https://github.com/Lightnetwork/rpc-tests) test suite which validates baseline conformity to the [Lightnetwork JSON RPC](https://github.com/Lightnetwork/wiki/wiki/JSON-RPC) specs. Please see the [test suite's readme](https://github.com/Lightnetwork/rpc-tests/blob/master/README.md) for details. |
 | `rlpdump` | Developer utility tool to convert binary RLP ([Recursive Length Prefix](https://github.com/Lightnetwork/wiki/wiki/RLP)) dumps (data encoding used by the Lightnetwork protocol both network as well as consensus wise) to user friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
 | `swarm`    | Swarm daemon and tools. This is the entrypoint for the Swarm network. `swarm --help` for command line options and subcommands. See [Swarm README](https://github.com/Lightnetwork/go-Lightnetwork/tree/master/swarm) for more information. |
